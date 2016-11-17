@@ -19,9 +19,8 @@ public class Main {
         int likutis = 350;
         int suma = 0;
         int galutinis = 0;
-        int a = 3;
         int b = 1;
-        while(b <= a){
+        while(b <= 3){
         Utils.println("Iveskite pin kodą");
         text = Utils.newScan().next();
          if (text2.equals(text)){
