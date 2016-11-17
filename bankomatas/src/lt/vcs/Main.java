@@ -19,19 +19,26 @@ public class Main {
         int likutis = 350;
         int suma = 0;
         int galutinis = 0;
+        int a = 3;
+        int b = 1;
+        while(b <= a){
         Utils.println("Iveskite pin kodą");
         text = Utils.newScan().next();
-         Utils.println("" +text);
-        if (text2.equals(text)){
+         if (text2.equals(text)){
             Utils.println("prisijungėte, jūsų sąskaitoje yra " + likutis);
             Utils.println("Kiek norite išsiimti");
             suma = Utils.newScan().nextInt();
             galutinis = likutis - suma;
             Utils.println("Jūsų likutis " +galutinis);
+            b = 3;
         }
         else{
             Utils.println("neteisingai");
+            b++;          
         }
+        Utils.println("Barbas baigtas");
     }
     
 }
+}
+
