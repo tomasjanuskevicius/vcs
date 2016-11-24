@@ -45,11 +45,10 @@ public class PersonNd {
         formatter = new SimpleDateFormat("yyyy-MM-dd");
         date1 = formatter.parse(str_date);
         person.setBirthdate(date1);
-        println(person.getName());
-        println(person.getLastname());
-        println(person.getID()); 
+        println("Vardas: " + person.getName() + " Pavarde: " + person.getLastname() );
+        println("Asmens kodas: " + person.getID()); 
         String datestring = formatter.format(person.getBirthdate());
-        println(datestring);
+        println("Gimimo metai: " + datestring);
 }
     }
    

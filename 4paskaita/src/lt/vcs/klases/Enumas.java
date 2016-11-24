@@ -25,16 +25,17 @@ this.en = en;
     public String getEn() {
         return en;
     }
+    /*
     public String getDescription(String kalba){
     String result = null;
     if("lt".equals(kalba)){
     result = this.lt;
     }
     else if ("en".equals(kalba)){
-    result = this.en;
+    result = this.en;*/
     }
-    }
-}
+    
+
 
     
 
